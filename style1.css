@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   
+    
+}
+body{
+   /* Created with https://www.css-gradient.com */
+   background-color: rgba(17,24,39);
+
+}
+.contact_me{
+    width: 54vw;
+    height: 70vh;
+    background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 6%;
+   padding: 1.8rem;
+   color: black;
+   border: 1px ridge black;
+   border-radius: 4px;
+   
+}
+.contact_me h1{
+    text-align: center;
+    color:#006cf8;
+    position: relative;
+    top: -1rem;
+}
+input[type=text],input[type=email],textarea{
+    width: 30rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(21, 21, 21);
+    outline: none;
+    margin-bottom: 1rem;
+    color: rgb(18, 16, 16);
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+label{
+    color:#006cf8;
+    font-weight: bold;
+}
+
+
+input[type=submit]
+{
+    padding: 0.5rem;
+    
+    background-image: linear-gradient(to right top, #2cc1dc, #00aaed, #008ffa, #006cf8, #6633dc);
+    color: white;
+    border: 2px ridge #197fa7 ;
+    border-radius: 19px;
+    width: 7rem;
+}
+input[type=submit]:hover{
+   cursor: pointer;  
+}
+.social{
+    float: right;
+    width: 11vw;
+    height: 40vh;
+    
+    margin-top: -24rem;
+    margin-right: 2rem;
+
+}
+button{
+    width: 9vw;
+    height: 6vh;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+  
+}
+.linkedin{
+    background-color: #2044e2;
+    color:white;
+}
+.insta{
+    background-color: rgb(241, 54, 222);
+    color: white;
+}
+.github{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 0.57vh;
+}
+footer{
+    width: 100vw;
+    height: 7vh;
+    color: white;
+    text-align: center;
+    margin-top: 4.5rem;
+    background-image: linear-gradient(to right top, #2cc1dc, #00aaed, #008ffa, #006cf8, #6633dc);
+    padding:1rem;
+}

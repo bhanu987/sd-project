@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.sidebar
+{
+    
+    width: 25%;
+    
+    background-image: linear-gradient(to right top, #2cc1dc, #00aaed, #008ffa, #006cf8);
+    color: white;
+    display: flex;
+    border: 1px solid white;
+    
+    
+}
+
+.sidebar nav {
+    padding: 77px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px ;
+    padding: 27px 0;
+    
+
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.main
+{
+    
+    width: 100%;
+    background-color: rgba(17,24,39);
+    color: white;
+    border: 1px red solid;
+}
+.container
+{
+    display: flex;
+}
+
+.infoContainer {
+    
+    height: 80vh;
+    width: 60vw;
+    margin: 120px auto;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(17,24,39);
+    flex-wrap: wrap;
+    
+    
+
+    
+}
+
+.devpic{
+    display: flex;
+    width: 250px;
+    height: 20vw;
+    margin-left: 600px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+   
+}
+.devpic img {
+    width: 300px;
+    height: 300px;
+    margin-top: -27rem;
+  
+}
+.devinfo  {
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: 2px;
+    margin-right: 335px;
+    width: 65%;
+    height: 80vh;
+    
+    
+}
+
+.hello  {
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    width: 40%;
+    
+
+}
+
+.name {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+   
+    
+    width: 70%;
+}
+
+.About {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+    
+   
+    width: 95%;
+    
+}
+
+.desc {
+    margin-left: 20px;
+    
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 70px;
+    
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 15px;
+    margin-left: 10px;
+   
+    font-size: 20px;
+    cursor:pointer;
+
+}
+/* CSS For Contact.html*/
+
+.contactform {
+    padding: 0 34px;
+    padding-bottom: 20px;
+    width: 50vw;
+    height: 20vw;
+    padding-top: 144px;
+    
+    
+    
+}
+h1{
+    
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.mb-3 button {
+    padding-top: 50px;
+}
+.contactform div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.myinfo {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+    padding: 20px;
+    
+}
+.phone {
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+.about {
+    padding: 40px;
+    font-size: 20px;
+   
+
+}
+.skills {
+    display: flexbox;
+   text-align: justify;
+   text-decoration: none;
+    font-size: 40px;
+}
+footer{
+    width: 96.8vw;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    
+    background-image: linear-gradient(to right top, #2cc1dc, #00aaed, #008ffa, #006cf8, #6633dc);
+    padding:1rem;
+}
+@media(max-width: 500px) {
+    *{
+        background-color: aqua;
+    }
+}
+
+.b {
+padding: 40px;
+ width: 100px;
+}
+.d {
+    width:100px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+}
